@@ -20,7 +20,7 @@ export class CatsServices{
     //   cause: cat
     // });
 
-    throw new BadRequestException('Something bad happened', { cause: new Error(), description: 'Some error description' })
+    // throw new BadRequestException('Something bad happened', { cause: new Error(), description: 'Some error description' })
   }
 
   findAll():Cats[]{
