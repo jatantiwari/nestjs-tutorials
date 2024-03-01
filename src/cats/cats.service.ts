@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { Cats } from "./cats.interface";
+import { Cats } from "./interface/cats.interface";
 
 @Injectable()
 export class CatsServices{

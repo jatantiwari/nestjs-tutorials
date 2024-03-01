@@ -1,7 +1,7 @@
 import { Body, Controller, Get, HttpCode, Param, Post, Redirect } from "@nestjs/common";
 import { CatsServices } from "./cats.service";
-import { CreateCatsDto } from "./cats.dto";
-import { Cats } from "./cats.interface";
+import { CreateCatsDto } from "./dto/cats.dto";
+import { Cats } from "./interface/cats.interface";
 
 // the @Controller() decorator, which is required to define a basic controller.
 // The @Controller decorator can take a host option to require that the HTTP host of the incoming requests matches some specific value.
